@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AppiumTests/.idea/AppiumTests.iml" filepath="$PROJECT_DIR$/../AppiumTests/.idea/AppiumTests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Study_pytest.iml" filepath="$PROJECT_DIR$/.idea/Study_pytest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../my_trainee_first/.idea/my_trainee_first.iml" filepath="$PROJECT_DIR$/../my_trainee_first/.idea/my_trainee_first.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../train/.idea/train.iml" filepath="$PROJECT_DIR$/../train/.idea/train.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user_creation_script/.idea/user_creation_script.iml" filepath="$PROJECT_DIR$/../user_creation_script/.idea/user_creation_script.iml" />
+    </modules>
+  </component>
+</project>
