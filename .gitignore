@@ -1,6 +1,10 @@
-# User-specific stuff
+syntax: glob
 .idea
 .idea/**/workspace.xml
+ *.iml
+ modules.xml
+ .idea/misc.xml
+ *.ipr
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
