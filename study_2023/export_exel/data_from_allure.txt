@@ -1,0 +1,181 @@
+603
+769
+1226717 Verify Professional license preview video for unregistered user
+1226718 Verify 'Buy Now' button on Professional license card
+1226719 Verify 'Buy Now' button on Student license card
+1226720 Verify 'Buy Now' button under Compare plans table for Professional License
+1226721 Verify 'Buy Now' button under Compare plans table for Student License
+1226722 Verify Institutional Learn More page on license card
+1226723 Verify Institutional Learn More page for Compare plans table
+1226724 Verify 'Privacy Policy' button for Professional license
+1226725 Verify 'Terms of Use' button for Student license
+1226726 Verify 'Privacy Policy' button for Student license
+1226727 Verify 'Terms of Use' button for Professional license
+1226728 Verify details on the Student license card
+1226729 Verify details on the Professional license card
+1226730 Verify Compare plans table in Store
+1226731 Verify summary of what Features are included in each License plan in a table
+1226732 Verify list of what Welcome essential atlas features are included in all License plans
+1226733 Verify Store Header available on the Screen
+1226409 User can add tabs
+1226410 User can remove tabs
+1226734 Verify License cards links are visible and have correct text for Professional license
+1226735 Verify License cards links are visible and have correct text for Student license
+1226736 Verify Store footer has "SHOW ME MORE DETAIL" button
+1226737 Verify 'Try it For Free' button in Store
+1226752 Verify choose right plan text in Store for unregistered user
+1226768 User can disable Tabs via Preferences
+1226238 Login in the application
+1226239 Verify user can Logout from My Account
+1226228 Create a new group and add members to the group
+1226284 Add member to the existing group
+1226377 Search Groups
+1226378 Sort Groups by GROUP NAME A-Z
+1226379 Sort Groups by MOST RECENT
+1226380 Sort Groups by GROUP NAME Z-A
+1226439 Open general deep link to Screen as Not Registered user
+1226381 Group information for the GROUPS YOU BELONG TO
+1226738 Page 1 of Choose your Skin overlay should show introductory message and a looping mp4
+1226385 Group Founder can remove members from the group
+1226739 Link to the blog should navigate to the correct web page
+1226700 User can open Diversity Overlay page related to phenotype and view appropriate content
+1226386 Delete existing group
+1226701 User get error message after selecting 'NEXT' button without selecting a phenotype first
+1226387 Group Admin can edit group
+1226388 Group Founder can edit group
+1226702 User can go to the previous page by pressing 'BACK' button
+1226448 Open general deep link to Question as user with None subscription
+1226703 User can go to the SKIP flow by pressing the 'SKIP' button
+1226402 Group Admin can add member to the existing group
+1226406 Verify that a Privacy Policy link is correct
+1226704 User can select a phenotype and go to the next page
+1226450 Open general deep link to Quiz as user with Individual subscription
+1226740 Verify that diversity page 3 overlay popup elements are displayed properly for Tablet and Productivity
+1226741 User get error message on selecting 'NEXT' button without selecting a skin tone first
+1226524 Verify Information Display Order
+1226742 User can go to the previous page by pressing 'BACK' button from page 3
+1226743 Verify that user can skip the diversity overlay from page 3
+1226525 Verify Active Features section
+1226454 Open general deep link to Screen as user with B2B Student Plus subscription
+1226526 Verify option preferences
+1226744 Verify that user can back from skip popup
+1226745 Verify that user can choose skin phenotype by clicking the wheel widget
+1226528 Verify 'Tools' from Active Features section is working
+1226529 Verify 'Tips' from Active Features section is working
+1226709 CYS overlay is displayed when a subscribed user logs into the app for the first time after installing diversity build
+1226710 CYS overlay is displayed when a Free Trial user logs into the app for the first time after installing diversity build
+1226530 Verify 'AR Mode' from Active Features section is working
+1226711 When SKIP button is selected, the system should display the page for randomly assigning the skin settings
+1226531 Verify 'Beating Heart' from Features section is working
+1226712 As a user if I choose Male model in Diversity settings, then Models panel should default to Male
+1226532 Verify 'Color Scheme' from Features section is working
+1226713 As a user if I choose Female model in Diversity settings, then Models panel should default to Female
+1226534 Verify 'Auto-Sync' from Features section is working
+1226715 CYS overlay should not appear when a registered user with subscription logs into the app
+1226753 User has the ability to open CYS overlay by clicking on change skin button in Integumentary section
+1226536 Verify 'Language' from Features section is working
+1226754 User can close CYS overlay without changing the Skin settings
+1226541 Verify 'Save Screen' from Active Features section is working
+1226542 Verify 'Tabs' from Active Features section is working
+1226543 Verify the 'Info Display Order' section is available to 'B2B Student Plus' user
+1226706 User saves screen with the integumentary layer turned on for the Male model
+1226544 Verify the 'Info Display Order' section is available to 'B2B Educator' user
+1226545 Verify the 'Info Display Order' section is available to 'Without Subscription' user
+1226546 Verify the 'Info Display Order' section is available to 'B2B Professional' user
+1226547 Verify the 'Info Display Order' section is available to 'Trial' user
+1226548 Verify that 'Active Feature section' is available to 'B2B Student Plus' user
+1226549 Verify that 'Active Feature section' is available to 'Without Subscription' user
+1226550 Verify that 'Active Feature section' is available to 'Trial' user
+1226551 Verify that 'Active Feature section' is available to 'B2B Professional' user
+1226552 Verify that 'Active Feature section' is available to 'B2B Educator' user
+1226553 Verify all features are available to 'Without Subscription' user
+1226554 Verify all features are available to 'B2B Educator' user
+1226555 Verify all features are available to 'Trial' user
+1226556 Verify all features are available to 'B2B Professional' user
+1226557 Verify all features are available to 'B2B Student Plus' user
+1226558 Verify the 'PREFERENCES' is not available to 'No authorized' user
+1226758 Verify that user can get Educator license by activating a Redeem Code
+1226519 Lecture is displayed in Recents section
+1226518 Detailed model from Models is displayed in Recents section
+1226516 Male regional model from Models is displayed in Recents section
+1226517 Male "Full Body" model from Models is displayed in Recents section
+1226176 Verify user can search for Questions
+1226177 Verify user can search for Screens
+1226178 Verify user can search for Quizzes
+1226179 Verify user can search for a Video
+1226185 Verify user can search for a FEMALE body structure
+1226404 Favourites button is not present for Atlas Screens in Search results
+1226405 Edit/Delete buttons is disabled for Atlas Screens in Search results
+1226286 Share Question from Search
+1226287 Add Question to Favourites from Search
+1226288 Delete Question from Search
+1226289 Edit Question from Search
+1226290 Share Quiz from Search
+1226291 Add Quiz to Favourites from Search
+1226292 Delete Quiz from Search
+1226293 Edit Quiz from Search
+1226294 Share Screen from Search
+1226295 Add Screen to Favourites from Search
+1226296 Delete Screen from Search
+1226240 Verify Redo icon works
+1226514 Video from Videos is displayed in Recents section
+1226241 Verify Undo icon works
+1226495 [productivity] Hub screen for user with B2C Professional subscription
+1226499 Verify user can open and close Models menu
+1226512 Question from Content is displayed in Recents section
+1226500 Verify correct models on Detailed tab
+1226299 Trial users should see Professional License marker with Trial badge
+1226501 Verify user can open Thorax from Female tab
+1226502 Verify user can open Pelvis & Perineum from Female tab
+1226396 Create an Account screen - password warnings text
+1226503 Verify user can open Lower Limb (Left) from Male tab
+1226389 Change password screen - errors text
+1226504 Verify user can open Head & Neck from Male tab
+1226390 Change password screen - labels
+1226537 Verify correct regions are displayed on 'Female' tab
+1226496 [productivity] Hub screen for user with Trial subscription
+1226538 Verify correct regions are displayed on 'Male' tab
+1226539 Verify user can open Upper Limb (Right) from Female tab
+1226481 Trial users should not have 'Copy Link to Questions' permission
+1226540 Verify user can open Abdomen from Male tab
+1226460 Trial users should not have permissions to Copy Link to Videos and Screens
+1226339 Verify user can Undo/Redo Growth Tool
+1226340 Verify user can Undo/Redo Spurs Tool
+1226401 Login screen - labels
+1226341 Verify user can clear Growth Tool
+1226342 Verify user can clear Spurs Tool
+1226300 Trial users should not have Go to Dashboard permissions
+1226343 Verify user can enter/exit full screen in Spurs Tool mode
+1226344 Verify user can enter/exit full screen in Growth Tool mode
+1226345 Verify user can change the Particle Size of the Spurs Tool
+1226400 Login screen - incorrect email error text
+1226346 Verify user can change the Size of the Spurs Tool
+1226399 Login screen - incorrect password error text
+1226347 Verify user can apply SINGLE POINT Spurs Tool to Model
+1226301 Trial users should not have Curriculum Manager permissions
+1226480 Trial users should not have 'Copy Link to Quizzes' permission
+1226348 Verify user can apply CLUSTER Spurs Tool to Model
+1226350 Verify user can change the Opacity of the Growth Tool
+1226298 Trial users should not have manage Group members permissions
+1226351 Verify user can change the Particle Size of the Growth Tool
+1226511 Screen from Atlas is displayed in Recents section
+1226352 Verify user can change the Size of the Growth Tool
+1226509 Restore Full Body in Recent section
+1226353 Verify user can change the Color of the Growth Tool
+1226493 [productivity] Hub screen for user with B2B Professional subscription
+1226355 Verify user can Undo/Redo Pain Tool
+1226497 [productivity] Hub screen for unregistered user
+1226356 Verify user can enter/exit full screen in Pain Tool mode
+1226357 Verify user can clear Pain Tool
+1226494 [productivity] Hub screen for user with B2C Student Plus subscription
+1226358 Verify user can apply Brush Pain Tool to Model with pulsating ON
+1226491 [productivity] Hub screen for user without subscription
+1226359 Verify user can apply Brush Pain Tool to Model with pulsating OFF
+1226360 Verify user can apply Sphere Pain Tool to Model with pulsating OFF
+1226515 Female model from Models is displayed in Recents section
+1226361 Verify user can apply Sphere Pain Tool to Model with pulsating ON
+1226508 Recent panel in empty state
+1226513 Quiz from Content is displayed in Recents section
+176
+
+Process finished with exit code 0
