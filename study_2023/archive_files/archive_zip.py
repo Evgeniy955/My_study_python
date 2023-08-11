@@ -13,6 +13,6 @@ def create_zip_archive(source_folder, output_filename, output_path):
 
 source_folder = 'C:\\Users\\halitsyn.y\\Desktop\\backup_original\\Archive'
 output_filename = 'Postman_English.zip'
-output_path = 'C:\\Users\\halitsyn.y\\PycharmProjects\\My_study_python\\study_2023\\Course\\Func'
+output_path = '/study_2023/Course/Func'
 
 create_zip_archive(source_folder, output_filename, output_path)
