@@ -70,6 +70,3 @@ if __name__ == "__main__":
     export_to_exel()
 
 
-
-conanfile.run(['lipo', '-create', '-output', dst] + arch_paths)
-

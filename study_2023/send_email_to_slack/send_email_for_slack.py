@@ -6,13 +6,18 @@ from email.mime.base import MIMEBase
 from email import encoders
 from email.mime.text import MIMEText
 
+
 def create_zip_archive(source_folder, output_filename, output_path):
-    shutil.make_archive(os.path.join(output_path, output_filename), 'zip', source_folder)
+    try:
+        os.listdir(source_folder)
+        shutil.make_archive(os.path.join(output_path, output_filename), 'zip', source_folder)
+    except FileNotFoundError:
+        print("\033[91mThe folder path isn't correct\033[0m")
+
 
 source_folder = 'C:\\Users\\halitsyn.y\\Desktop\\backup_original\\Archive'
 output_filename = 'Postman_English'
 output_path = 'C:\\Users\\halitsyn.y\\Documents\\Archives'
-
 
 # Mail settings
 from_email = "galitsyn.evgeniy955@gmail.com"
@@ -50,7 +55,6 @@ def send_mail():
         print("Email sent successfully")
     except smtplib.SMTPAuthenticationError:
         print("\033[91mAuthentication unsuccessful, the user credentials were incorrect\033[0m")
-
     finally:
         archive_file = os.path.join(output_path, filename)
         os.remove(archive_file)
@@ -59,4 +63,3 @@ def send_mail():
 if __name__ == "__main__":
     create_zip_archive(source_folder, output_filename, output_path)
     send_mail()
-
