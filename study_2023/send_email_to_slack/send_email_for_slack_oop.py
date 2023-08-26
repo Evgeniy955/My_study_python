@@ -58,5 +58,4 @@ class SendMail:
             archive_file = os.path.join(output_path, filename)
             os.remove(archive_file)
 
-x = SendMail(source_folder, output_filename, output_path)
-x.send_mail()
+SendMail(source_folder, output_filename, output_path).send_mail()
