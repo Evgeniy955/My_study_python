@@ -2,18 +2,19 @@ import os
 
 
 def check_local_port():
+    '''mac_os'''
     info_port = None
-    os.chdir("C:/Users")
     port = os.popen("lsof -i :3000").readlines()
     if len(port) != 0:
         for text in port:
-            if "node" in text:
+            if "Python" in text:
                 info_port = text.split(" ")
         pid = [port_data for port_data in info_port if port_data.isdigit()]
         command = f"kill {int(pid[0])}"
         os.system(command)
 
-# check_local_port()
+if __name__ == "__main__":
+    check_local_port()
 
 import subprocess
 #
