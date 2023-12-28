@@ -30,8 +30,8 @@ if __name__ == "__main__":
 
     # Продолжайте выполнение других операций
 
-    time.sleep(20)
+    time.sleep(120)
 
-    print("Server closed")
     my_server.shutdown()
     my_server_thread.join()
+    print("Server closed")
