@@ -1,5 +1,7 @@
 from faker import Faker
 
-name = str(Faker().name()).split(" ")[0]
+name = str(Faker().name())
+first_name = name.split(" ")[0]
+word = Faker().word()
 
-print(name)
+print(first_name, word)
