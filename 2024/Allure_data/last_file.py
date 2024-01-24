@@ -44,6 +44,7 @@ def get_test_execution_metadata(allure_report_path):
                     failed += 1
                     names.append(json["name"])
     print(passed, failed, sep="\n")
+    # return int(all_time)
     return int(all_time * 1.06)
 
 
