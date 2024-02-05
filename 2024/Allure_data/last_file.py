@@ -1,7 +1,7 @@
 import os
 from json import loads
 
-folder_path = "/Users/halitsy.y/Downloads/App  IPAD tests results on 09.01.2024"
+folder_path = "/Users/halitsy.y/Downloads/App  IPAD tests results on 24.01.2024"
 
 
 def get_file_paths(folder_path):

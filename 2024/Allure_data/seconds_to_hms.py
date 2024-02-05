@@ -5,7 +5,7 @@ def milliseconds_to_hmsms(milliseconds):
     return hours, minutes, seconds, milliseconds
 
 # Пример использования
-total_milliseconds = 45321566  # Замените на количество миллисекунд, которое вы хотите преобразовать
+total_milliseconds = 406000  # Замените на количество миллисекунд, которое вы хотите преобразовать
 hours, minutes, seconds, milliseconds = milliseconds_to_hmsms(total_milliseconds)
 
 print(f"{int(hours)} часов, {int(minutes)} минут, {int(seconds)} секунд, {int(milliseconds)} миллисекунд")
