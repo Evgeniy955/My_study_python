@@ -1,11 +1,14 @@
 import timeit
+from time import sleep
+
 
 def first(time_func):
     while time_func != 0:
         print("Hello")
         x = 2*3*83-45+65/2
         print(x)
-        time_func -=1
+        sleep(0.5)
+        time_func -=0.5
 
 execution_time = timeit.timeit(lambda: first(10), number=1)
 
