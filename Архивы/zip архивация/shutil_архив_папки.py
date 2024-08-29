@@ -3,7 +3,7 @@ import shutil, os
 
 target_path = 'C:\\Users\\Yevhen\\Desktop\\backup_original\\Archive' # root_dir - это каталог, который будет корневым каталогом архива;
 # например, мы обычно запускаем chdir в root_dir перед созданием архива.
-file_to_zip = r'new' # base_dir - это каталог, откуда мы начинаем архивирование; (папка, котоорая будет заархивированная)
+file_to_zip = 'new' # base_dir - это каталог, откуда мы начинаем архивирование; (папка, котоорая будет заархивированная)
 # то есть base_dir будет общим префиксом всех файлов и каталогов в архиве.
 try:
     shutil.make_archive('C:\\Users\\Yevhen\\Documents\\Archives\\archive2', 'zip', target_path, file_to_zip)
