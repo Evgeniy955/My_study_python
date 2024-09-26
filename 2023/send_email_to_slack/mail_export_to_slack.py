@@ -20,7 +20,7 @@ msg.attach(MIMEText(body, 'plain'))
 
 # Прикрепление файла
 filename = "Postman_English.zip"
-attachment = open("C:/Users/halitsyn.y/Desktop/Postman_English.zip", "rb")
+attachment = open("/Users/halitsy.y/Downloads/IPAD 10.6.0.zip", "rb")
 part = MIMEBase('application', 'octet-stream')
 part.set_payload(attachment.read())
 encoders.encode_base64(part)

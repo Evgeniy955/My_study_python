@@ -6,9 +6,9 @@ from email.mime.base import MIMEBase
 from email import encoders
 from email.mime.text import MIMEText
 
-source_folder = 'C:\\Users\\halitsyn.y\\Desktop\\backup_original\\Archive'
-output_filename = 'Postman_English'
-output_path = 'C:\\Users\\halitsyn.y\\Documents\\Archives'
+source_folder = '/Users/halitsy.y/Downloads'
+output_filename = 'IPAD 10.6.0.zip'
+output_path = '/Users/halitsy.y/Downloads/new'
 
 # Mail settings
 from_email = "galitsyn.evgeniy955@gmail.com"

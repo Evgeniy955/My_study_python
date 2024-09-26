@@ -7,7 +7,7 @@ client = WebClient(token=my_token)
 try:
     response = client.files_upload_v2(
         channel='C05LXP4R55J',
-        file='C:\\Users\\halitsyn.y\\Desktop\\Postman_English.7z',
+        file='/Users/halitsy.y/Downloads/IPAD 10.6.0.zip',
         title='Archive File',
         initial_comment='Here is the archive file!'
     )
