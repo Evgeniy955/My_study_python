@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 
 # Настройки почты
 from_email = "galitsyn.evgeniy955@gmail.com"
-password = "zy63Xa5pf"
+password = "Ks7K84Lf5z"
 to_email = "test_group_for_export-aaaakmpba3frjnncjqesqxmctm@elsevier.org.slack.com"
-subject = "Test email"
+subject = "Test email with attachment"
 body = "This is the body of the email."
 
 # Создание письма
@@ -28,9 +28,9 @@ part.add_header('Content-Disposition', f"attachment; filename= {filename}")
 msg.attach(part)
 
 # Отправка письма через SMTP
-with smtplib.SMTP('smtp.office365.com', 587) as server:
+with smtplib.SMTP('smtp.gmail.com', 587) as server:
     server.starttls()
     server.login(from_email, password)
     server.sendmail(from_email, to_email, msg.as_string())
 
-print("Email с файлом успешно отправлен")
+print("Email with attachment successfully sent")
