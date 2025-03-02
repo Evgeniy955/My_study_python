@@ -39,6 +39,9 @@ class AppLogger:
             console_handler.setFormatter(ColoredFormatter(formatter_str))
             logger.addHandler(console_handler)
 
+        # Set Jetty logging level to CRITICAL to suppress lower-level messages
+        logging.getLogger('org.eclipse.jetty').setLevel(logging.CRITICAL)
+
         return logger
 
     @classmethod
