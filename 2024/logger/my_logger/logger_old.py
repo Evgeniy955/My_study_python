@@ -23,14 +23,19 @@ class AppLogger:
     _logger = None
 
     @staticmethod
-    def _initialize(name="app_logger"):
+    def _initialize(name="app_logger", log_file="app_log_file.log"):
         logger = logging.getLogger(name)
         logger.setLevel(logging.DEBUG)
 
         if not logger.handlers:
+            file_handler = logging.FileHandler(log_file)
+            file_handler.setLevel(logging.DEBUG)
+            formatter_str = "%(asctime)s - %(levelname)s - %(message)s"
+            file_handler.setFormatter(logging.Formatter(formatter_str))
+            logger.addHandler(file_handler)
+
             console_handler = logging.StreamHandler()
             console_handler.setLevel(logging.DEBUG)
-            formatter_str = "%(asctime)s - %(levelname)s - %(message)s"
             console_handler.setFormatter(ColoredFormatter(formatter_str))
             logger.addHandler(console_handler)
 
@@ -67,7 +72,7 @@ class AppLogger:
 
 logger = AppLogger
 
-# Example of use
+# Пример использования
 if __name__ == '__main__':
     logger = AppLogger.get_logger()
     logger.debug("This is a debug message")
