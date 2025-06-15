@@ -1,8 +1,9 @@
-from tkinter.font import names
+
+
 ingredients = {
     'cucumber': 0.5,
     'tomato': 0.7,
-    'cheese': 1.2,
+    'slices_of_cheese': 1.2,
     'bread': 0.3,
     'ham': 1.5,
     'egg': 0.8,
@@ -12,23 +13,25 @@ ingredients = {
     'avocado': 1.0,
     'bacon': 1.8,
 }
-sandwich_price = []
 
-def price_calculator(name: str):
-    def inner(func):
-        def wrapper(*args, **kwargs):
-            if **kwargs in ingredients:
-                sandwich_price.append(ingredients[name] * ingredients[name])
-            return result
-        return wrapper
-
-    return inner
+def price_calculator(func):
+    def wrapper(**kwargs):
+        sandwich_price = 0
+        for key, value in kwargs.items():
+            if key in ingredients:
+                sandwich_price += ingredients[key] * value
+        print(f"💰 Общая стоимость сэндвича: {sandwich_price:.2f}$")
+        return func(**kwargs)  # ← Вызов оригинальной функции
+    return wrapper
 
 
 
 @price_calculator
-def make_sandwich(*ingredients: str) -> str:
-    return f"There is a sandwich with: {', '.join(ingredients)}"
+def make_sandwich(**kwargs: any) -> any:
+    total_ingredients = []
+    for key, value in kwargs.items():
+        total_ingredients.append(key+" " + str(value))
+    return f"There is a sandwich with: {', '.join(total_ingredients)}"
 
 if __name__ == '__main__':
-    make_sandwich('cucumber=1', 'tomatoes=2', 'slices of cheese=3')
+    print(make_sandwich(cucumber=1, tomato=2, slices_of_cheese=3, bacon=2))
