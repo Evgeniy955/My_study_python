@@ -48,18 +48,17 @@
 # hello_with_kwargs(gender='male', age=24, name='Jack')
 # hello_with_kwargs(gender='male', age=24)
 
-# def hello_with_greeting_and_kwargs(greeting, **kwargs):
-#     if 'name' in kwargs:
-#         print('{}! Nice to meet you, {}'.format(greeting, kwargs['name']))
-#     else:
-#         print('{}! What is your name?'.format(greeting))
-#
-#
-# hello_with_greeting_and_kwargs('Good morning', gender='male', age=24, name='Jack')
-# # hello_with_greeting_and_kwargs(gender='male', age=24)
+def hello_with_greeting_and_kwargs(greeting, **kwargs):
+    if 'name' in kwargs:
+        print('{}! Nice to meet you, {}'.format(greeting, kwargs['name']))
+    else:
+        print('{}! What is your name?'.format(greeting))
+
+
+hello_with_greeting_and_kwargs('Good morning', gender='male', age=24, name='Jack')
+hello_with_greeting_and_kwargs(gender='male', age=24)
 
 def func_with_args_and_kwargs(*args, **kwargs):
     print('I would like {} {}'.format(args[0], kwargs['food']))
 
 func_with_args_and_kwargs('one', 'two', drink='coffee', food='sandwich')
-
