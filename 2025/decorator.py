@@ -29,7 +29,7 @@ def my_function():
 
 @deco
 def summator(a: int, b: int) -> int:
-    return 1
+    return a + b
 
 @deco_2
 @deco
@@ -43,3 +43,4 @@ def square(a: int) -> int:
     return a * a
 
 print(square(1))
+print(summator(1, 3))
