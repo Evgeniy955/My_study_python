@@ -42,4 +42,5 @@ def square(a: int) -> int:
     print('Function calling')
     return a * a
 
-print(square(1))
+# print(square(1))
+print(my_function())
