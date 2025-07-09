@@ -1,7 +1,7 @@
 import logging
 import os
 
-from Admin_utils.custom_logger_formatter import CustomColoredFormatter
+from .custom_logger_formatter import CustomColoredFormatter
 
 LOGGING_LEVEL = os.environ.get("LOGGING_LEVEL", logging.INFO)
 
