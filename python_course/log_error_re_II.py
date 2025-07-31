@@ -1,7 +1,7 @@
 import re
 import logging
 
-log_file = "C:\\Users\\Yevhen\\Downloads\\Telegram Desktop\\yupdate.log"
+log_file = "/Users/halitsy.y/Downloads/gupdate.log"
 
 logger = logging.getLogger('dev')
 logger.setLevel(logging.ERROR)

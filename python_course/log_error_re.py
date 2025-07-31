@@ -1,7 +1,7 @@
 import logging
 import re
 
-log_file = "C:\\Users\\Yevhen\\Downloads\\Telegram Desktop\\yupdate.log"
+log_file = "/Users/halitsy.y/Downloads/gupdate.log"
 
 class CriticalError(Exception):
     pass
@@ -14,10 +14,10 @@ def log_errors(log_file):
             lines = f.readlines()
             total_lines = len(lines)
             for line in lines:
-                if re.search("error|Error|ERROR", line):
+                if re.search("error", line, re.IGNORECASE):
                     error_lines += 1
                     logging.error(line)
-                    if re.search("critical error|Critical Error|CRITICAL ERROR", line):
+                    if re.search("critical error", line, re.IGNORECASE):
                         print("CRITICAL ERROR: " + line)
         return total_lines / error_lines
     except ZeroDivisionError:
