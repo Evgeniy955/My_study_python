@@ -24,4 +24,4 @@ for uri in urls:
 # print(dict(zip(url_result, code_result)))
 if __name__ == '__main__':
     print(urls)
-    # print(d1)
+    print(d1)
